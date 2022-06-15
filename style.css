@@ -18,14 +18,14 @@ p {
   /*margin-top: 40px;
   margin-left: 20px;
   margin-right: 20px;*/
-  line-height: 45px;
-  vertical-align: middle;
-  height: 100%;
   font-size: 0;
 }
 .header > * {
   display: inline-block;
   font-size: 16px;
+  height: 100%;
+  line-height: 45px;
+  vertical-align: middle;
 }
 .logo{
    width: 15%;
