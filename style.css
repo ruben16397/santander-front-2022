@@ -1,15 +1,23 @@
-body{
-    background-color: #fffbf7;
+body {
+  background-color: #fffbf7;
 }
-h1{
-    text-align: center;
-    color: #46484c;
+h1 {
+  text-align: center;
+  color: #46484c;
 }
-button{
-    color:#fff ; 
-    background-color: #025157;
+button {
+  color: #fff;
+  background-color: #025157;
 }
-p{ 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:#8b8b8bcc;
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #8b8b8bcc;
+}
+.header {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+li{
+    display: inline;
 }
