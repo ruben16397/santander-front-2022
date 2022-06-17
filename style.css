@@ -13,12 +13,21 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #8b8b8bcc;
 }
+.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
 .header {
   margin: 40px 20px 0;
   /*margin-top: 40px;
   margin-left: 20px;
   margin-right: 20px;*/
   font-size: 0;
+  display: flex;
+  align-items: center;
 }
 .header > * {
   display: inline-block;
@@ -44,7 +53,7 @@ p {
 }
 .header li {
   display: inline;
-  margin: auto 25px;
+  margin:auto 25px;
 }
 .actions {
   width: 15%;
@@ -101,12 +110,12 @@ p {
     padding: 0;
     color:gray;
     font-family: Karla;
+    border-radius: 5px;
 }
 .promo-form button{
     color: white;
     background-color: teal;
     font-weight: bold;
-    border-radius: 5px;
 }
 .video-and-img{
     display: flex;
