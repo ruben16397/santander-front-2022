@@ -79,24 +79,40 @@ p {
     width: 70%;
     margin: 100px auto;
     align-items: center;
+    justify-items: center;
+}
+.video-section > *{
+    margin: 1em;
 }
 .video-section h1{
     font-family: Karla;
     font-size: 1.5em;
     color: #025157;
+    text-align: left;
 }
 .video-section p{
     color: #343434;
+    text-align: left;
+    font-size: 1em;
 }
 .promo-form > *{
     height: 50px;
     margin:0;
     padding: 0;
+    color:gray;
+    font-family: Karla;
 }
 .promo-form button{
     color: white;
     background-color: teal;
     font-weight: bold;
     border-radius: 5px;
-
+}
+.video-and-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-and-img img{
+    width: 50px;
 }
