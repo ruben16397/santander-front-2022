@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(0, 207, 207);
+  background-color: rgb(255, 255, 255);
 }
 h1 {
   text-align: center;
@@ -73,4 +73,30 @@ p {
   text-align: center;
   font-family: "Inconsolata", monospace;
   font-size: 2.5em;
+}
+.video-section{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+.video-section h1{
+    font-family: Karla;
+    font-size: 1.5em;
+    color: #025157;
+}
+.video-section p{
+    color: #343434;
+}
+.promo-form > *{
+    height: 50px;
+    margin:0;
+    padding: 0;
+}
+.promo-form button{
+    color: white;
+    background-color: teal;
+    font-weight: bold;
+    border-radius: 5px;
+
 }
