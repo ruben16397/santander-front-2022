@@ -13,12 +13,12 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #8b8b8bcc;
 }
-.fixed-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: white;
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
 }
 .header {
   margin: 40px 20px 0;
@@ -43,9 +43,9 @@ p {
   width: 15%;
 }
 .navbar {
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   width: 70%;
-  height: 45px;
+
   text-align: center;
   color: #025157;
   font-weight: 500;
@@ -53,7 +53,7 @@ p {
 }
 .header li {
   display: inline;
-  margin:auto 25px;
+  margin: auto 25px;
 }
 .actions {
   width: 15%;
@@ -63,7 +63,7 @@ p {
 }
 .actions > * {
   margin-right: 10px;
-  margin-right: 10px;
+
   margin: 0 10px;
 }
 .actions a {
@@ -77,51 +77,168 @@ p {
   border: 0;
   border-radius: 5px;
 }
+.main {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .main h1 {
   margin-top: 140px;
   text-align: center;
   font-family: "Inconsolata", monospace;
-  font-size: 2.5em;
+  font-size: 5em;
 }
-.video-section{
-    display: flex;
-    width: 70%;
-    margin: 100px auto;
-    align-items: center;
-    justify-items: center;
+.email-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-.video-section > *{
-    margin: 1em;
+.email-form > * {
+  padding: 1em;
 }
-.video-section h1{
-    font-family: Karla;
-    font-size: 1.5em;
-    color: #025157;
-    text-align: left;
+.email-form button {
+  font-size: 1.5em;
+  height: 100%;
 }
-.video-section p{
-    color: #343434;
-    text-align: left;
-    font-size: 1em;
+.email-form input {
+  font-size: 1.5em;
+  height: 100%;
 }
-.promo-form > *{
-    height: 50px;
-    margin:0;
-    padding: 0;
-    color:gray;
-    font-family: Karla;
-    border-radius: 5px;
+.main img {
+  width: 30%;
 }
-.promo-form button{
-    color: white;
-    background-color: teal;
-    font-weight: bold;
+.video-section {
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+  justify-items: center;
 }
-.video-and-img{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.video-section > * {
+  margin: 1em;
 }
-.video-and-img img{
-    width: 50px;
+.video-section h1 {
+  font-family: Karla;
+  font-size: 1.5em;
+  color: #025157;
+  text-align: left;
+}
+.video-section p {
+  color: #343434;
+  text-align: left;
+  font-size: 1em;
+}
+.promo-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.promo-form h3 {
+  width: 100%;
+  margin: 1em 0;
+}
+.promo-form > * {
+  margin: 0;
+  padding: 0;
+  color: gray;
+  font-family: Karla;
+}
+.promo-form input {
+  width: 70%;
+  font-size: 1.5em;
+  padding: 0.5em 0;
+}
+.promo-form button {
+  width: auto;
+  color: white;
+  background-color: teal;
+  font-weight: bold;
+  font-size: 1em;
+}
+.video-and-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.video-and-img img {
+  width: 50px;
+}
+.iframes {
+  background-color: #025157;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.iframes > h2 {
+  font-size: 3em;
+  color: white;
+  font-family: monospace;
+}
+.cases {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  padding: 5em 10%;
+  margin: 0;
+  background-color: #a1d683;
+  align-items: center;
+}
+.cases article {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cases article h3 {
+  font-family: monospace;
+  font-size: 3.5em;
+  color: #025157;
+}
+.cases article img {
+  width: 100%;
+}
+.cases article p {
+  color: black;
+  font-size: 1.2em;
+}
+.cases aside {
+  background-color: white;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cases aside > * {
+  width: 70%;
+}
+#happy-clients {
+  width: 100%;
+}
+.cases aside > h4 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
+}
+.cases aside > h3 {
+  font-family: Arial, Helvetica, sans-;
+  font-weight: 100;
+  font-size: 2em;
+}
+.growth {
+  display: flex;
+  flex-direction: row;
+}
+.growth img {
+  width: 20%;
+}
+.cases button {
+  padding: 0.5em;
+  margin: 2em;
+  border-radius: 10px;
+  font-size: 1.2em;
 }
