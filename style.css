@@ -102,10 +102,12 @@ p {
 .email-form button {
   font-size: 1.5em;
   height: 100%;
+  border-radius: 0 10px 10px 0;
 }
 .email-form input {
   font-size: 1.5em;
   height: 100%;
+  border-radius: 10px 0 0 10px;
 }
 #capterra-logo {
   width: 30%;
@@ -138,15 +140,11 @@ p {
 .promo-form {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  margin:0;
 }
-.promo-form h3 {
+.video-section > article > h3 {
   width: 100%;
   margin: 1em 0;
-}
-.promo-form > * {
-  margin: 0;
-  padding: 0;
   color: gray;
   font-family: Karla;
 }
@@ -156,7 +154,7 @@ p {
   padding: 0.5em 0;
 }
 .promo-form button {
-  width: auto;
+  width: 29%;
   color: white;
   background-color: teal;
   font-weight: bold;
