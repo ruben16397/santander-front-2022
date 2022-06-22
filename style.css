@@ -185,9 +185,7 @@ p {
   grid-template: repeat(2,1fr) / repeat(2,1fr);
   background-color: #025157;
   padding: 5em 10%;
-  margin: 2em;
-  position: relative;
-  z-index: 1;
+
 }
 .features  article{
   background-color: white;
@@ -201,7 +199,7 @@ p {
   gap: 2em ;
 }
 .features  article .content{
-  width: 70%;
+  width: 80%;
 }
 .features  article .content > img{
   height: 70px;
@@ -227,7 +225,7 @@ color: black;
   content: " →";
 }
 .features article > img{
-  width: 30%;
+  width: 20%;
   margin: 0;
   padding: 0;
 }
