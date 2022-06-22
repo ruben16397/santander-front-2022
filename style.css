@@ -179,10 +179,14 @@ p {
   color: white;
   font-family: monospace;
 }
+.features{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
 .cases {
   display: flex;
   flex-direction: row;
-  gap: 3em;
+  gap: 5%;
   padding: 5em 10%;
   margin: 0;
   background-color: #a1d683;
