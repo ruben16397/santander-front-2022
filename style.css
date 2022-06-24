@@ -116,21 +116,24 @@ p {
 #matcha-img-page {
   width: 70%;
 }
+/*---------------------VIDEO SECTION--------------------*/
 .video-section {
   display: flex;
-  width: 70%;
-  margin: 100px auto;
+  width: 100%;
+  margin:0;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
 }
-.video-section > * {
-  margin: 1em;
+.video-section > article{
+  width: 60%;
+  margin: 2em;
 }
 .video-section h1 {
   font-family: Karla;
   font-size: 1.5em;
   color: #025157;
   text-align: left;
+  margin:0;
 }
 .video-section p {
   color: #343434;
@@ -161,13 +164,20 @@ p {
   font-size: 1em;
 }
 .video-and-img {
+  margin: 2em;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 40%;
 }
 .video-and-img img {
-  width: 50px;
+  width: 10%;
 }
+.video-and-img > video{
+  width: 100%;
+}
+/*-----------------------------IFRAMES------------------------*/
 .iframes {
   background-color: #025157;
   padding: 2em;
@@ -181,7 +191,7 @@ p {
   color: white;
   font-family: monospace;
 }
-
+/*------------------FEATURES-------------------*/
 .features {
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(2, 1fr);
@@ -230,6 +240,7 @@ p {
   margin: 0;
   padding: 0;
 }
+/*------------------------CASES--------------------*/
 .cases {
   display: flex;
   flex-direction: row;
@@ -376,6 +387,52 @@ p {
     font-size: 3em;
     margin-top: 140px;
   }
+  #capterra-logo{
+    width: 100%;
+  }
+  .video-section{
+    flex-direction: column;
+  }
+  .video-section > .video-and-img{
+    margin: 2em 0 1em 0;
+    width: 70%;
+  }
+  .video-section > article{
+    font-size: 1em;
+    margin: 1em;
+    width: 70%;
+  }
+  .video-section > article > h1{
+    margin: 0;
+  }
+  .features{
+    grid-template: repeat(4, 1fr) / 1fr;
+    padding: 2em 10%;
+  }
+
+  .features article {
+    padding: 1em;
+    align-items: center;
+    justify-content: left;
+    margin: 1em;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .features article h2 {
+    font-size: 1.2em;
+  }
+  .features article p {
+    font-size: 1em;
+  }
+  .green-link {
+    font-size: 1em;
+  }
+  .features article > img {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+  }
+
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
