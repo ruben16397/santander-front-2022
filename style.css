@@ -183,6 +183,7 @@ p {
 }
 /*-----------------------------IFRAMES------------------------*/
 .iframes {
+  width: 100%;
   background-color: #025157;
   padding: 2em;
   display: flex;
@@ -433,6 +434,24 @@ p {
 .success-stories .overview img {
   width: 500px;
   max-width: 100%;
+}
+.carousel-item > img{
+  height: 200px;
+}
+.carousel-item > article {
+  margin: 1em;
+}
+.carousel-item  h4{
+font-size: 1rem;
+font-weight: 500;
+}
+.carousel-item  h2{
+font-size: 1.5rem;
+font-weight: 400;
+}
+.carousel-item  h5{
+font-size: 0.8rem;
+color: gray;
 }
 /*---------------------------QUERIES------------------------------------*/
 /** dispositivos móviles en vista viewport (vertical) */
