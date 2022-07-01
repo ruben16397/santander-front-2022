@@ -61,6 +61,9 @@
   width: 180px;
   margin-bottom: 15px;
 }
+.blog .card {
+  height: 100%;
+}
 .blog .author {
   display: flex;
   flex-direction: row;
