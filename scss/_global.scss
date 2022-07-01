@@ -1,0 +1,39 @@
+//_global.scss
+
+//Colores
+$dark-green-title: #025157;
+$dark-green-text: #135359;
+$white: white; 
+$gray: #4a4a4a;
+$light-gray: #979797;
+$light-green:#67b54b;
+
+
+
+//Fuentes
+$font-title:"Alegreya", serif;
+
+
+%base-title{
+    font-family: $font-title;
+    color: $dark-green-title;
+}
+%card-title{
+    color: $gray;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+%card-metadata-category{
+    color:$light-green;
+    font-size: 14px;
+    font-weight:bold;
+}
+%card-metadata-readtime{
+    color: $light-gray;
+    font-size: 14px;
+    font-weight: bold;
+}
+%card-text{
+    color:$gray;
+    font-size: 18px;
+}
