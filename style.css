@@ -59,6 +59,9 @@ p {
   display: inline;
   margin: auto 25px;
 }
+.nav-item > a{
+  color: black;
+}
 .actions {
   width: 15%;
   text-align: left;
